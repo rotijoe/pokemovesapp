@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  padding: 3rem;
+  height: 100vh;
+  width: 100vw;
+}
+.opponant {
+  background-color: grey;
+  flex: 1;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.suggestions {
+  background-color: lightgrey;
+  flex: 2;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list__container {
+  padding: 1rem;
+  width: 100%;
+  background-color: lightcyan;
+  flex: 1;
+  margin-top: 1rem;
+}
+
+.list {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+
+button {
+  border: none;
+    background-color: transparent;
+    height: fit-content;
+}
+
+.disabled {
+  filter: brightness(0.5);
+}

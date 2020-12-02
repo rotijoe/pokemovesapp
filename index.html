@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section class="opponant">
+      <div class="btnContainer"></div>
+
+    </section>
+    <section class="suggestions">
+      <div class="list__container" id="goAtt">
+        <h4 class="list__title">goAttack</h4>
+        <p>these moves will be good against your opponant</p>
+        <ul class="list" id="goAttList"></ul>
+      </div>
+      <div class="list__container" id="goDef">
+         <h4 class="list__title">goDefend</h4>
+         <p>Your pokemon will defend well against the selected move</p>
+        <ul class="list" id="goDefList"></ul>
+      </div>
+      <div class="list__container" id="returnDef">
+         <h4 class="list__title">Return Bad Defence</h4>
+         <p>Return pokemon of this type as they are weak to the selected moves</p>
+        <ul class="list" id="returnDefList"></ul>
+      </div>
+      <div class="list__container" id="returnAtt">
+         <h4 class="list__title">Return Bad Attack</h4>
+         <p>Return these pokemon as their attack is weal against your opponant.</p>
+        <ul class="list" id="returnAttList"></ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
